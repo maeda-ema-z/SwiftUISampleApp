@@ -15,6 +15,8 @@
 		4B9C55D123C83A84004399F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B9C55CF23C83A84004399F9 /* LaunchScreen.storyboard */; };
 		4B9C55DC23C83A84004399F9 /* SwiftUiSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9C55DB23C83A84004399F9 /* SwiftUiSampleTests.swift */; };
 		4B9C55E723C83A84004399F9 /* SwiftUiSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9C55E623C83A84004399F9 /* SwiftUiSampleUITests.swift */; };
+		4B9C55F523C84A1D004399F9 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9C55F423C84A1D004399F9 /* CircleImage.swift */; };
+		4B9C55F723C855A4004399F9 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9C55F623C855A4004399F9 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		4B9C55E223C83A84004399F9 /* SwiftUiSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUiSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B9C55E623C83A84004399F9 /* SwiftUiSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiSampleUITests.swift; sourceTree = "<group>"; };
 		4B9C55E823C83A84004399F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B9C55F423C84A1D004399F9 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		4B9C55F623C855A4004399F9 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				4B9C55CF23C83A84004399F9 /* LaunchScreen.storyboard */,
 				4B9C55D223C83A84004399F9 /* Info.plist */,
 				4B9C55CC23C83A84004399F9 /* Preview Content */,
+				4B9C55F423C84A1D004399F9 /* CircleImage.swift */,
+				4B9C55F623C855A4004399F9 /* MapView.swift */,
 			);
 			path = SwiftUiSample;
 			sourceTree = "<group>";
@@ -268,6 +274,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B9C55C523C83A83004399F9 /* AppDelegate.swift in Sources */,
+				4B9C55F523C84A1D004399F9 /* CircleImage.swift in Sources */,
+				4B9C55F723C855A4004399F9 /* MapView.swift in Sources */,
 				4B9C55C723C83A83004399F9 /* SceneDelegate.swift in Sources */,
 				4B9C55C923C83A83004399F9 /* ContentView.swift in Sources */,
 			);
